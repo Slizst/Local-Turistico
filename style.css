@@ -119,3 +119,22 @@ p {
     width: 100%;
     border-radius: 28px;
 }
+
+.accent1 {
+    color: var(--accent-blue);
+    font-weight: bold;
+
+}.accent2 {
+    color: var(--accent-orange);
+    font-weight: bold;
+}
+
+.accent3 {
+    color: var(--accent-pink);
+    font-weight: bold;
+}
+
+.accent4 {
+    color: var(--accent-purple);
+    font-weight: bold;
+}
