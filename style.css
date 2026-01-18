@@ -45,19 +45,28 @@ main{
 }
 
 #firstphoto{
-    padding: 40px 0px 40px 0px;
+    padding: 40px 0px 0px 0px;
 }
 
 #titlelist{
-    padding: 64px 0px 64px 0px;
+    padding: 24px 0px 64px 0px;
+}
+
+.contentcard{
+    padding-top: 20px;
 }
 
 #titlelist h2+p {
     padding-top: 8px;
 }
 
+#second-cardtravel{
+    padding: 48px 0px;
+}
+
 .divisor{
     border: 1px solid var(--border-primary);
+    margin: 40px 0px 40px 0px;
 }
 
 ol.h3{
@@ -112,6 +121,10 @@ p {
     font-size: 12px;
     font-style: italic;
     padding: 4px;
+    text-align: center;
+}
+
+.description {
     text-align: center;
 }
 
