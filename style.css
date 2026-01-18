@@ -32,15 +32,15 @@ body{
     max-width: 1000px;
     margin: 110px auto;
     background-color: var(--accent-blue);
-    border-radius: 40px;
-    box-shadow: 0px 0px 20px 12px rgba(0, 0, 0, 0.250);
+    border-radius: 50px;
+    box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.200);
     padding: 20px;
 }
 
 main{
     background-color: var(--background-default);
     padding: 88px 80px;
-    border-radius: 20px;
+    border-radius: 35px;
 }
 
 h1,h2,h3{
@@ -116,7 +116,7 @@ img.photo{
 }
 
 .subtitle {
-    font-size: 12px;
+    font-size: 14px;
     font-style: italic;
     padding: 4px;
     text-align: center;
