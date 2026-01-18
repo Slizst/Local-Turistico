@@ -37,6 +37,13 @@ body{
     padding: 20px;
 }
 
+
+main{
+    background-color: var(--background-default);
+    padding: 88px 80px;
+    border-radius: 20px;
+}
+
 #firstphoto{
     padding: 40px 0px 40px 0px;
 }
@@ -53,11 +60,22 @@ body{
     border: 1px solid var(--border-primary);
 }
 
-main{
-    background-color: var(--background-default);
-    padding: 88px 80px;
-    border-radius: 20px;
+ol.h3{
+    list-style-position: inside;
+    font-size: 28px;
+    font-weight: bold;
+    padding-left: 10px;
 }
+
+ul li::marker{
+    color: var(--text-secondary);
+}
+
+ul{
+    padding-left: 1rem;
+    list-style-position: inside;
+}
+
 
 
 h1,h2,h3{
@@ -73,6 +91,10 @@ h2{
     font-size: 32px;
 }
 
+h3{
+    font-size: 28px;
+}
+
 p {
     font-size: 16px;
     font-weight: normal;
@@ -83,6 +105,7 @@ p {
     font-size: 16px;
     font-weight: bold;
     color: var(--text-headline);
+    text-transform: uppercase;
 }
 
 .subtitle {
