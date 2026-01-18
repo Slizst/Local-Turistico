@@ -37,11 +37,20 @@ body{
     padding: 20px;
 }
 
+#firstphoto{
+    padding: 40px 0px 40px 0px;
+}
+
+.divisor{
+    border: 1px solid var(--border-primary);
+}
+
 main{
     background-color: var(--background-default);
     padding: 88px 80px;
     border-radius: 20px;
 }
+
 
 h1,h2,h3{
     font-weight: bold;
@@ -69,8 +78,10 @@ p {
 }
 
 .subtitle {
-    font-size: 16px;
+    font-size: 12px;
     font-style: italic;
+    padding: 4px;
+    text-align: center;
 }
 
 .photo{
